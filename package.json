@@ -1,19 +1,31 @@
 {
-  "name": "rxjs",
+  "name": "rxjs-starter-coursetro",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "description": "This is the end-result of lesson 1 for setting up the development environment.",
+  "main": "webpack.config.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designcourse/rxjs-starter-coursetro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/designcourse/rxjs-starter-coursetro/issues"
+  },
+  "homepage": "https://github.com/designcourse/rxjs-starter-coursetro#readme",
   "dependencies": {
-    "rxjs": "^5.5.7",
-    "ts-loader": "^4.1.0",
-    "typescript": "^2.7.2",
-    "webpack": "^4.2.0",
-    "webpack-dev-server": "^3.1.1"
+    "rxjs": "^6.5.3",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
   },
   "devDependencies": {
-    "webpack-cli": "^2.0.13"
+    "webpack-cli": "^3.3.10"
   }
 }

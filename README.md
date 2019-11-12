@@ -6,6 +6,6 @@ This includes RxJS, TypeScript and Webpack.
 
 You can find the course here: [A Comprehensive RxJS Tutorial](https://coursetro.com/courses/25/A-Comprehensive-RxJS-Tutorial---Learn-ReactiveX-for-JavaScript-)
 
-Simply clone this repo and run `yarn install`. Then, run `yarn run start`.
+Simply clone this repo and run `npm install`. Then, run `npm run start`.
 
 Enjoy!
